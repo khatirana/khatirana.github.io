@@ -1,0 +1,74 @@
+/* this is a coment */
+
+body {
+	background-color: rgb(187,193,204);
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main{
+	background-color: rgba(255,255,255,0.8);
+	max-width: 600px;
+	margin:  0 auto;
+	padding: 10px 20px;
+	border-radius: 40px;
+
+}
+h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	text-shadow: 20px 10px 2px pink;
+
+}
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: 15px powderblue;
+	padding: 7px;
+	background-color: lemonchiffon;
+}
+h3 {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+h3:hover {
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+
+/* hide anything (*) immediately after (+) an h3 */
+
+h3 + * {
+	display:none;
+}
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a{
+	font-weight: bold;
+	color: magenta;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
